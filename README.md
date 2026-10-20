@@ -2,6 +2,9 @@
 
 Этот публичный репозиторий хранит готовые файлы обновлений приложения и контроллера. Исходный код, ключ подписи APK и пароли сюда не загружаются.
 
+
+Ветки проекта: [1.8.10 — прошивка](https://github.com/ValeriiLeenet/esp32-drive-firmware/tree/1.8.10) и [1.8.21 — приложение](https://github.com/ValeriiLeenet/esp32-drive-firmware/tree/1.8.21). В каждой есть CHANNEL.md с правилами выпуска. Ветки служат для организации проекта; файлы для обновления приложение получает из Releases.
+
 Приложение проверяет [GitHub Releases](https://github.com/ValeriiLeenet/esp32-drive-firmware/releases) через [GitHub API](https://api.github.com/repos/ValeriiLeenet/esp32-drive-firmware/releases/latest). Версии приложения и прошивки независимы: если последний выпуск содержит только один тип файла, приложение ищет другой среди предыдущих выпусков.
 
 ## Обновление приложения
